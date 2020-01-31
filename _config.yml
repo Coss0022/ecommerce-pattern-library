@@ -8,7 +8,7 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700,700i&display=swap"
   colors:
     background: "--color-secondary"
-    accent: "--color-accent"
+    accent: "--color-primary"
   rationales:
     typefaces.primary: |
       PT Serif was selected because it is a nice, simple and easy to read font. PT Serif is to be used for all body copy only and for link hover.

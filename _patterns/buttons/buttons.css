@@ -1,0 +1,30 @@
+.btn {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-secondary);
+}
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-accent);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.btn-light {
+  background-color: transparent;
+  border-color: transparent;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}

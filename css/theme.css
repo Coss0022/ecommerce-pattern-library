@@ -1,6 +1,6 @@
 :root {
   --color-primary: #040404;
-  --color-scondary: #f3f3f3;
+  --color-secondary: #f2f2f2;
   --color-accent: #00896e;
 
   --font-primary: 'PT Serif', serif;
@@ -44,7 +44,7 @@ a {
 a:hover {
   font-family: var(--font-primary);
   font-style: italic;
-  color: var(--color-accent)
+  color: var(--color-accent);
 }
 
 ul,
@@ -64,7 +64,7 @@ dt {
 dd {
   font-family: var(--font-secondary);
   font-weight: 400;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 
 cite {
@@ -78,9 +78,11 @@ em, strong,
 del, ins,
 abbr, dfn,
 i, b, s, u {
-  font-family: var(--font-primary)
+  font-family: var(--font-primary);
 }
 
 mark {
-  background-color: var(--color-accent)
+  background-color: var(--color-accent);
+  color: var(--color-secondary);
+
 }
