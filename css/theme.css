@@ -47,9 +47,22 @@ a:hover {
   color: var(--color-accent)
 }
 
-ul {
+ul,
+ol {
   font-family: var(--font-secondary);
   font-weight: 400;
   color: var(--color-primary);
   list-style-type: none;
+}
+
+dt {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+dd {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-primary)
 }
