@@ -73,3 +73,14 @@ cite {
   font-style: normal;
   color: var(--color-accent);
 }
+
+em, strong,
+del, ins,
+abbr, dfn,
+i, b, s, u {
+  font-family: var(--font-primary)
+}
+
+mark {
+  background-color: var(--color-accent)
+}
