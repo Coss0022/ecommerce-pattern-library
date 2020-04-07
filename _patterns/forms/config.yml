@@ -1,0 +1,39 @@
+title: "Forms"
+description: |
+  These are different form inputs necessary for creating different form structures on the website.
+
+patterns:
+  checkbox:
+    title: "Checkbox"
+    description: |
+      The checkbox input is used in a form to opt in/out of information.
+
+  email:
+    title: "Email"
+    description: |
+      The email input is to be placed in a form to sign in or sign up for an account.
+
+  password:
+    title: "Password"
+    description: |
+      The password input is to be placed in a form to sign in of an account.
+
+  required:
+    title: "Required"
+    description: |
+      The required input of a form is to be placed on emails telephone, and name inputs of a form.
+
+  search:
+    title: "Search"
+    description: |
+      The search input is to be placed in the navigation.
+
+  telephone:
+    title: "Telephone"
+    description: |
+      The telephone input is to be placed in sign-up forms and in the checkout form.
+
+  error-message:
+    title: "Error-message"
+    description: |
+      The error message is to be paired with a required input, email, and telephone to signify if the form was not completed or not filled properly.
