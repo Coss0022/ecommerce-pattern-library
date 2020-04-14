@@ -1,0 +1,10 @@
+.active-page {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
