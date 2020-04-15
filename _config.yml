@@ -20,3 +20,6 @@ patternbot:
       The secondary colour is to balance with the primary colour. Is to be used for backgrounds.
     colors.accent: |
       The accent colour is bright and colourful. It's purpose is to stand out as a pop of colour to create some contrast. Is to be used for very few instances, hover colour on links, buttons, citations.
+  layouts:
+    default: |
+      The default layout should be used for almost every page. It includes the website's primary header and footer.
