@@ -1,0 +1,12 @@
+patterns:
+  hero-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "New Arrivals"
+      - name: text
+        type: string
+        example: "Refresh your walls and find art that suits your home!"
+      - name: img
+        type: string
+        example: "bowl-of-fruit-flowers"
