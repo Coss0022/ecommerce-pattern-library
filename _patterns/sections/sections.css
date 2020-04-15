@@ -1,0 +1,9 @@
+.news-back {
+  background-color: var(--color-secondary);
+  border-bottom: 20px solid var(--color-primary);
+}
+
+.news-text {
+  text-align: left;
+
+}

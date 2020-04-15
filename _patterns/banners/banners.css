@@ -1,0 +1,20 @@
+.hero-image {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 20px solid var(--color-primary)
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-secondary);
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
