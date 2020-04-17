@@ -9,4 +9,4 @@ patterns:
         example: "Refresh your walls and find art that suits your home!"
       - name: img
         type: string
-        example: "bowl-of-fruit-flowers"
+        example: "main-banner"

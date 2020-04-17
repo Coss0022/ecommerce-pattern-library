@@ -1,0 +1,9 @@
+patterns:
+  art-card:
+    fields:
+      - name: heading
+        type: string
+        example: "Abstract"
+      - name: img
+        type: string
+        example: "abstract-acrylic"
