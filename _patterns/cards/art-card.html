@@ -1,6 +1,11 @@
 <div class="art-card">
   <div class="embed embed-4by3">
-  <img class="img-flex embed-item" src="/images/{{include.img}}.jpg" alt="">
+    <img class="img-flex embed-item" src="/images/{{include.img}}.jpg" alt="">
   </div>
-  <h1 class="art-text">{{include.heading}}</h1>
+  <h1 class="art-text push-0 gutter">{{include.heading}}</h1>
+  <div class="overlay">
+    <div class="art-btn tera">
+      {% pattern buttons/ghost %}
+    </div>
+  </div>
 </div>

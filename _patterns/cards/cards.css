@@ -15,8 +15,40 @@
   position: relative;
 }
 
-.art-text {
+.art-card .art-text {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 0;
+  background: rgba(242, 242, 242, 0.5);
+  width: 100%;
+  padding: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+.art-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.art-card:hover .overlay {
+  opacity: 1;
+}
+
+.art-card:hover .art-text {
+  opacity: 0;
 }

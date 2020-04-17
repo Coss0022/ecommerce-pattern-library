@@ -6,4 +6,4 @@ patterns:
         example: "Abstract"
       - name: img
         type: string
-        example: "abstract-acrylic"
+        example: "art-card1"
